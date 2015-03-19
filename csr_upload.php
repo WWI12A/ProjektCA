@@ -16,13 +16,6 @@ $sql = "SELECT
 	$row = mysql_fetch_assoc($result);
 		$customer = htmlentities($row['Nickname'], ENT_QUOTES);
 //-------------------Nickname geholt in variable "customer"
-/*
-echo "<pre>";
-echo "FILES:<br />";
-print_r ($_FILES );
-echo "</pre>";
-*/
-
 		
 		//Zeitstempel für Dateiname
 $timestamp = date('Y-m-d');
