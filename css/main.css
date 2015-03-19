@@ -1,0 +1,274 @@
+.container_teaser{
+	max-width:100%;
+	background-color: rgba(241, 141, 5, 0.80);
+	margin:0;
+	padding: 5.20833% 2.08333%;
+	margin-top: 5px;
+	overflow:hidden;
+}
+.nomargin{
+	margin:0;	
+}
+
+.animation{
+	animation-duration: 0.5s;
+    animation-fill-mode: both;
+	animation-name: fadeInLeft;
+}
+#teaser_section{
+	background-image:url(../teasersw_kl.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: inherit;
+    width: 100%;
+}
+.flexible{
+		width:100%;
+		max-width:237px;
+		height:auto;
+}
+.inline_fix{
+	margin-left:0.7752%;
+	margin-right:0.7752%;
+}
+@media only screen and (max-width: 979px) {
+.fahrschule_detail{
+    max-width: 100%;
+	margin:auto 10px;
+}
+.anmeld{
+	width: 65.8915%;
+	margin-left: 17.0543%;
+}
+}
+@media only screen and (max-width: 767px) {
+.anmeld{
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.fahrschule_detail {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 100%;
+}
+.anschrift{
+	max-width:45%;
+}
+.inline_fix{
+	margin:0;	
+}
+}
+@media only screen and (max-width: 479px) {
+.anmeld{
+	width: 100%;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.anschrift{
+	max-width:100%;	
+}	
+}
+.anschrift{
+	margin-right:10px;
+	}
+footer{
+	background-color:#F5F5F5;
+	min-height:100px;
+}
+.container_teaser h1{
+	font-weight:lighter;
+}
+nav ul, nav li{
+	display: inline-table;
+	padding: 1% 1% 1% 10px;
+	list-style:none;
+	transition: all 0.2s ease 0.05s;
+	color:#0f0f0f;
+}
+
+.line{
+	border-bottom:1px solid #eee;	
+}
+li .on{
+	border-bottom:3px solid #F90;
+}
+
+.grid nav{
+	text-align:right;	
+}
+nav a{
+	color:inherit;
+	font-size: 18px;	
+}
+nav ul:hover, nav li:hover{
+	color:#F93;
+}
+footer a{
+	color:#0F0F0F;
+}
+nav {
+	margin-top:2px;;
+}
+/*-------------------------------Headlines-------------------------------*/
+h2 {
+	margin-top:10px;
+	margin-bottom:4px;
+    color:01A4A4;
+}
+h3 {
+    color:01A4A4;
+}
+h4 {
+    color:01A4A4;
+}
+/*-------------------------------/Headlines-------------------------------*/
+.google-maps {
+position: relative;
+padding-bottom: 75%; // This is the aspect ratio
+height: 0;
+overflow: hidden;
+}
+.google-maps iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+@media screen and (min-width: 48em) {
+header h1{
+	font-size:45px;	
+}
+}
+
+p {
+	text-align:left;	
+}
+
+/*--- Tabellen ----------------------------------------------------------------------------------------- */
+  table { width:auto;/* border-collapse:2px #888 solid; */margin-bottom:0.5em; border-top:2px #888 solid; border-bottom:2px #888 solid; }
+  table caption { font-variant:small-caps; }
+  table.full { width:100%; }
+  table.fixed { table-layout:fixed; }
+
+  th,td { padding:0.5em; }
+  thead th { color:#000; border-bottom:2px #ff6c00 solid; font-weight:normal; }
+  tbody th { background:#e0e0e0; color:blue; }
+  tbody th[scope="row"], tbody th.sub { background:#f0f0f0; }
+
+  tbody th { border-bottom:1px solid #fff; text-align:left; }
+  tbody td { border-bottom:1px solid #eee; }
+
+  tbody tr:hover th[scope="row"],
+  tbody tr:hover tbody th.sub { background:#F5F5F5; }
+  tbody tr:hover td { background:#DDD; }
+ /*--- Formulare ----------------------------------------------------------------------------------------- */
+  input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    color: #777777;
+    display: block;
+    font: 13px 'Lato', sans-serif;
+    margin: 0 0 2px;
+    max-width: 80%;
+    outline: 0 none;
+    padding: 6px 4px;
+    width: 100%;
+	min-width:80%;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {
+    border: 1px solid #AAAAAA;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    color: #444444;
+}
+input[type="submit"], button {
+    background-color: #01A4A4;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 3px 5px;
+    transition: all 0.3s ease 0s;
+	cursor: pointer;
+    margin-top: 20px;
+    /*padding: 15px 10px;*/
+}
+.btn_big{
+	font-size:18px;
+}
+.btn:hover {
+    background-color: #72CCFC;
+    color: #FFFFFF;
+}
+/* CSS Document - fadein */
+
+@-webkit-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+}
+
+@-moz-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		-moz-transform: translateX(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-moz-transform: translateX(0);
+	}
+}
+
+@-ms-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		-ms-transform: translateX(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-ms-transform: translateX(0);
+	}
+}
+
+@-o-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		-o-transform: translateX(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		-o-transform: translateX(0);
+	}
+}
+
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-20px);
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.fadeInLeft {
+	-webkit-animation-name: fadeInLeft;
+	-moz-animation-name: fadeInLeft;
+	-ms-animation-name: fadeInLeft;
+	-o-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+}
